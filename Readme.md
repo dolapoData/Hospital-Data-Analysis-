@@ -311,7 +311,7 @@ GROUP BY o.id;
 
 * Payer Metrics & Revenue Risk: A massive portion of the hospital’s $67.89M total revenue** is categorized under "No Insurance", closely followed by Medicare. This presents a high risk for pending balances. The facility should implement pre-admission financial counseling and optimized installment payment workflows to mitigate outstanding debt.
 
-*Patient Retention Dynamics: The dashboard highlights a significant volume of Repeat Patients compared to new ones. To maximize patient lifetime value, the hospital should establish structured patient-relationship management tracks and follow-up clinical pathways.
+* Patient Retention Dynamics: The dashboard highlights a significant volume of Repeat Patients compared to new ones. To maximize patient lifetime value, the hospital should establish structured patient-relationship management tracks and follow-up clinical pathways.
   
 * Operational Bottlenecks & Capacity Planning: Facility utilization and encounter counts are dominated by a few top organizations. Resources, staff scheduling, and medical equipment allocation should be dynamically adjusted to mirror these high-load centers, preventing operational burnout and reducing patient wait times.
   
