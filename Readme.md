@@ -307,6 +307,32 @@ GROUP BY o.id;
 
 ![Dashboard Design](images/Dashboard%20Design.jpg)
 
+## KEY INSIGHTS AND RECCOMENDATIONS
+
+* Payer Metrics & Revenue Risk: A massive portion of the hospital’s $67.89M total revenue** is categorized under "No Insurance", closely followed by Medicare. This presents a high risk for pending balances. The facility should implement pre-admission financial counseling and optimized installment payment workflows to mitigate outstanding debt.
+
+*Patient Retention Dynamics: The dashboard highlights a significant volume of Repeat Patients compared to new ones. To maximize patient lifetime value, the hospital should establish structured patient-relationship management tracks and follow-up clinical pathways.
+  
+* Operational Bottlenecks & Capacity Planning: Facility utilization and encounter counts are dominated by a few top organizations. Resources, staff scheduling, and medical equipment allocation should be dynamically adjusted to mirror these high-load centers, preventing operational burnout and reducing patient wait times.
+  
+* Treatment Cost Management: With an Average Treatment Cost of $2.21K, a clear gap exists where patient costs consistently outpace insurance coverage limits. Introducing transparent pricing structures and specialized care packages can help reduce the out-of-pocket financial burden on patients while safeguarding hospital profit margins.
+
+
+## PROJECT ARCHITECTURE & WORKFLOW
+
+The implementation of this project follows a structured, end-to-end data analytics lifecycle, transitioning from raw data storage to interactive business intelligence reporting:
+
+1. Data Ingestion & Environment Setup: Imported the raw clinical datasets into an optimized relational database environment using SQLite.
+
+2. Database Modeling: Designed the primary keys, foreign keys, and structural table relationships to build out a robust, normalized database framework.
+   
+3. Data Transformation & Aggregation (ETL Layer):Developed custom SQLite script workflows to clean records and aggregate data fields into focused, performant dimension and fact summary tables.
+   
+4. Data Visualization & Dashboard Design: Connected the processed summary data directly into Power BI, engineering a cohesive dashboard interface utilizing deliberate color palettes and custom-designed layout wireframes to optimize user readability.
+
+
+
+
 
 
 
