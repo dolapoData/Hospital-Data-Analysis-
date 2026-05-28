@@ -291,5 +291,27 @@ GROUP BY o.id;
 
 
 
+## DASHBOARD REPORT
+
+* Executive Key Metrics (KPI Cards): High-level tracking for **Total Patients (974), Total Appointments (28K), Total Revenue ($67.89M), and Average Treatment Cost ($2.21K).
+  
+* Demographics & Patient Profiles: Age Distribution and separating, Repeat vs. New Patient, Gender Distribution.
+  
+* Financial & Revenue Workflows:Paid vs. Pending Bills,Top Patients by Revenue and Top Payers by Revenue.
+  
+* Clinical Operations & Cost Dynamics:Most Common Treatments and Top Organizations by Encounter Volume,Encounter Trends Over Time and Total Treatment Cost Over Time and Patient Cost vs. Insurance Coverage.
+  
+* Interactive Slicers: A left-hand filtering panel allowing stakeholders to dynamically slice the entire dashboard by Year, Gender, Race, and Payment Status.
+
+### Interactive Interface Preview
+
+![Dashboard Design](images/Dashboard%20Design.jpg)
+
+
+
+
+
+
+
 
 
